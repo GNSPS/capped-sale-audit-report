@@ -1,4 +1,5 @@
-#Simple Capped Token Sale Review
+# Simple Capped Token Sale Review
+
 ---
 
 This report is an ongoing effort of the ConsenSys Diligence team. It is maintained to keep up with the updates to the codebase.
