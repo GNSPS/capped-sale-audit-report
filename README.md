@@ -12,8 +12,8 @@ The labels in the versioning of the codebase follow the format `ac.X`, where `ac
 
 Release versions are consentual among developers and auditors.
 
-The whole compilation of audits ordered chronologically can be found [**in this markdown file**](/blob/master/capped-token-sale_report.md).  
+The whole compilation of audits ordered chronologically can be found [**in this markdown file**](/blob/master/Capped%20Token%20Sale_report.md).  
 
 **Version Index**
 
-* [v0.0.1-ac.1](/blob/master/report---contents/v001---ac1)
+* [v0.0.1-ac.1](/tree/master/report-contents/v0.0.1-ac.1)
