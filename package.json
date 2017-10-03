@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "A tool created to aid in assembling audits into a single file",
   "scripts": {
-    "setup": "bash setup.sh",
-    "assemble": "bash compiler_report.sh",
+    "assemble": "bash compiler_report.sh"
   },
   "repository": {
     "type": "git",

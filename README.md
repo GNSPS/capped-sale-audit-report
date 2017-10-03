@@ -1,33 +1,18 @@
-# Audit Report Template
+#Simple Capped Token Sale Review
+---
 
-## Usage
+This report is an ongoing effort of the ConsenSys Diligence team. It is maintained to keep up with the updates to the codebase.
 
-First you should fill in `compiler.cfg`.
+This not only ensures that the reviews have the most amount of manual analysis possible but also keep up-to-date on the latest attack vectors and tooling upgrades.
 
-Then duplicate the `githubUser.cfg.template` file, **rename that to `githubUser.cfg`** (otherwise you'll be exposing your credentials) and fill it in as well.
+Each major section which follows [SemVer notation](http://semver.org) corresponds to a certain pre-release of the codebase. **Only pre-releases are subject of reviews** and an actual release of the codebase means it is production-ready code.
 
-Then finally just run:
+The labels in the versioning of the codebase follow the format `ac.X`, where `ac` means _audit candidate_ and `X` represents the number of times that specific version of the codebase has been submitted (or re-submitted) for review. 
 
-```
-$ ./compiler_report.sh
-```
+Release versions are consentual among developers and auditors.
 
-and you're all set! :)
+The whole compilation of audits ordered chronologically can be found [**in this markdown file**](/blob/master/capped-token-sale_report.md).  
 
-## Rationale
+**Version Index**
 
-The _raison d'être_ of this repo is to be structured in a way that a permits a small/medium team to collaborate easily in an asynchronnous fashion on Github and, at the same time, lower time-to-assembly and decrease merging problems.
-
-## Structure
-
-The assembly structure/rules are simple:
-
-* Every folder level corresponds to a deeper-leveled title
-* A file title also corresponds to a deeper-leveled title
-* File contents are concatenated "as is"
-* Final report file is going to be a Github-Flavoured Markdown [_.md_] file (so you can use github-flavoured markdown syntax inside any of the files)
-* Files that produce no new title but instead only output their contents should be named exactly "0 - no_title.md"
-
-## Assembler
-
-The assembler is pretty simple. Just a bash script and another bash file with some config variables.
+* [v0.0.1-ac.1](/blob/master/report---contents/v001---ac1)
