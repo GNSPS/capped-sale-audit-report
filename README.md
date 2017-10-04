@@ -1,6 +1,5 @@
 # Simple Capped Token Sale Review
 
----
 
 This report is an ongoing effort of the ConsenSys Diligence team. It is maintained to keep up with the updates to the codebase.
 
@@ -12,8 +11,8 @@ The labels in the versioning of the codebase follow the format `ac.X`, where `ac
 
 Release versions are consentual among developers and auditors.
 
-The whole compilation of audits ordered chronologically can be found [**in this markdown file**](/blob/master/Capped%20Token%20Sale_report.md).  
+The whole compilation of audits ordered chronologically can be found [**in this markdown file**](/Capped%20Token%20Sale_report.md).  
 
 **Version Index**
 
-* [v0.0.1-ac.1](/tree/master/report-contents/v0.0.1-ac.1)
+* [v0.0.1-ac.1](/report-contents/v0.0.1-ac.1)
